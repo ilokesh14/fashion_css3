@@ -520,6 +520,17 @@ h6 {
     margin: 1% 2%;
 }
 
+.col3 form input[type="submit"] {
+    color: white;
+    background-color: black ;
+}
+
+.col3 form input[type="submit"]:hover {
+    color: black;
+    font-weight: 700 ;
+    background-color:white;
+}
+
 .col3 image {
     width: 100%;
 }
@@ -557,6 +568,12 @@ h6 {
     color: white;
     border-radius: 5%;
     background-color: black;
+}
+
+.subscribe input[type="submit"]:hover {
+color: black ;
+    background-color: white ;
+    font-weight: 700 ;
 }
 
 .footer {
@@ -612,4 +629,9 @@ h6 {
 .footer marquee {
     color: white;
     margin-bottom: -1%;
+}
+
+.footer .row .col ul li a:hover {
+    color: black ;
+    background-color: white ;
 }
