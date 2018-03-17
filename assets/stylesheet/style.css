@@ -83,7 +83,7 @@ h6 {
 }
 
 
-@media(max-width:400px) {
+@media(max-width:600px) {
     .navbar ul li {
         display: none;
     }
@@ -132,8 +132,8 @@ h6 {
         display: block;
         position: absolute ;
         top: 40px;
-        width: 310px ;
-        text-align: center ;
+        width: 75% ;
+        text-align: center ;    
     }
     
 }
