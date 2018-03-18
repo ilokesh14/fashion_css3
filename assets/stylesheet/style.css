@@ -2,7 +2,7 @@
     font-family: 'Encode Sans Semi Condensed', sans-serif;
     margin: 0px;
     padding: 0px;
-    font-family: 'Pacifico', cursive;
+/*    font-family: 'Pacifico', cursive;*/
 
 }
 
@@ -20,6 +20,8 @@ h3,
 h4,
 h5,
 h6 {
+        font-family: 'Pacifico', cursive;
+
     margin: 0px;
     padding: 0px;
 }
