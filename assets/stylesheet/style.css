@@ -3,10 +3,11 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Pacifico', cursive;
+
 }
 
-p {
-    font-weight: 100;
+ body p {
+    font-weight:100 !important ;
 }
 
 img {
@@ -64,7 +65,7 @@ h6 {
 }
 
 .navbar img {
-    filter: none ;
+    filter: none;
 }
 
 
@@ -175,7 +176,7 @@ h6 {
 @media (max-width:1200px) {
     .banner .text {
         position: absolute !important;
-        top: 40% !important;
+        top: 30% !important;
         left: 3% !important;
     }
 }
@@ -200,14 +201,25 @@ h6 {
 }
 
 
+@media (max-width:400px) {
+ 
+.banner .text {
+    position: absolute !important;
+    top: 15% !important;
+    left: 0% !important;
+    margin-left: 0px !important;
+}
+
+}
 @media (max-width:980px) {
     .logo {
         width: 25% !important;
     }
-    .banner .text {
+    .text {
         position: absolute !important;
-        top: 35% !important;
+        top: 20% !important;
         left: 0% !important;
+        margin-left: 0px !important;
     }
     #slider {
         height: 600px !important;
@@ -285,7 +297,8 @@ h6 {
 .banner .text {
     position: absolute;
     top: 40%;
-    left: 5%;
+    left: 0%;
+    margin-left: 7%;
     color: white;
     text-align: center;
     opacity: 0.9;
@@ -430,7 +443,13 @@ h6 {
 /*services section css starteed */
 
 .service {
+
+    background-image: url(../images/img1.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: white;
     padding: 3% 0px 0px 0px;
+
     margin: 5% 0px 0px 0px;
     background-color: #F5F4F4;
 }
@@ -535,7 +554,7 @@ h6 {
 }
 
 .event .col img {
-    width: 90%;
+    width: 95%;
     margin: 10px;
     filter: drop-shadow(8px 8px 10px gray);
 }
@@ -825,6 +844,8 @@ h6 {
     color: white;
     background-image: url(../images/img2.jpg);
     background-attachment: fixed;
+    background-size: 100% 100%;
+
     padding: 5% 2%;
 }
 
@@ -875,7 +896,7 @@ h6 {
 .footer {
     background-image: url(../images/img1.jpg);
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100% 100%;
     padding: 3% 0px 1% 0px;
 }
 
